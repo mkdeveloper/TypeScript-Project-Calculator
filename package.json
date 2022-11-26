@@ -9,6 +9,7 @@
   },
   "author": "Muhammad Khubaib",
   "license": "ISC",
+  "bin":"./dist/index.js",
   "dependencies": {
     "@types/chalk-animation": "^1.6.1",
     "chalk": "^5.1.2",
@@ -19,5 +20,16 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkdeveloper/TypeScript-Project-Calculator.git"
+  },
+  "keywords": [
+    "MKC"
+  ],
+  "bugs": {
+    "url": "https://github.com/mkdeveloper/TypeScript-Project-Calculator/issues"
+  },
+  "homepage": "https://github.com/mkdeveloper/TypeScript-Project-Calculator#readme"
 }
