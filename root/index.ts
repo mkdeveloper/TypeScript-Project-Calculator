@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
@@ -53,15 +54,15 @@ do {
 
     if (answer.operator === "x Raise to the Power y") {
       console.log(
-        chalk.blue(
+        chalk.greenBright(
           `${answer.firstNumber} raise to the power ${answer.secondNumber} is: ${result}`
         )
       );
     } else {
-      console.log(chalk.blue(`${answer.operator} is: ${result}`));
+      console.log(chalk.greenBright(`Answer: ${result}`));
     }
   } else {
-    console.log(chalk.red(`Wrong Entry, You must enter Numbers Only!`));
+    console.log(chalk.redBright(`Wrong Entry, You must enter Numbers Only!`));
   }
 
   const restart = await inquirer.prompt([
