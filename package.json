@@ -1,6 +1,6 @@
 {
-  "name": "calculator",
-  "version": "1.0.0",
+  "name": "mk-calculator",
+  "version": "1.1.0",
   "description": "TypeScript Calculator Project",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,9 @@
   },
   "author": "Muhammad Khubaib",
   "license": "ISC",
-  "bin":"./dist/index.js",
+  "bin": {
+    "mk-calculator": "bin/index.js"
+  },
   "dependencies": {
     "@types/chalk-animation": "^1.6.1",
     "chalk": "^5.1.2",
